@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfMyGallery"
         mc:Ignorable="d" Loaded="Window_Loaded"
-        Title="MainWindow" Height="350" Width="800">
+        Title="MainWindow" Height="457.593" Width="1006.111">
     <Grid>
-        <Canvas x:Name="GamePanel" Width="664" Height="243" Canvas.Top="188">
+        <Canvas x:Name="GamePanel" Width="664" Canvas.Top="188" Margin="64,10,64,38">
             <Button x:Name="Games0" Width="64" Height="64"  Canvas.Left="231.666" Canvas.Top="8.999" Panel.ZIndex="0" Opacity="0.3"/>
             <Button x:Name="Games1" Width="68" Height="68"  Canvas.Left="126" Canvas.Top="18" Panel.ZIndex="1" Opacity="0.55"/>
             <Button x:Name="Games2" Width="100" Height="100"  Canvas.Left="35" Canvas.Top="60" Panel.ZIndex="2" Opacity="0.7"></Button>
@@ -18,7 +18,7 @@
             <Button x:Name="Games7" Width="68" Height="68"  Canvas.Left="486" Canvas.Top="18" Panel.ZIndex="6" Opacity="0.55"/>
             <Button x:Name="Games8" Width="64" Height="64"  Canvas.Left="382.667" Canvas.Top="8.999" Panel.ZIndex="7" Opacity="0.3"/>
         </Canvas>
-        <Button x:Name="lbutton" Content="左" HorizontalAlignment="Left" Margin="21,281,0,0" VerticalAlignment="Top" Width="75" Height="28" Click="lbutton_Click"/>
-        <Button x:Name="rbutton" Content="右" HorizontalAlignment="Left" Margin="694,286,0,0" VerticalAlignment="Top" Width="75" Height="28" Click="rbutton_Click"/>
+        <Button x:Name="lbutton" Content="左" HorizontalAlignment="Left" Margin="21,370,0,0" VerticalAlignment="Top" Width="75" Height="28" Click="lbutton_Click"/>
+        <Button x:Name="rbutton" Content="右" HorizontalAlignment="Left" Margin="898,370,0,0" VerticalAlignment="Top" Width="75" Height="28" Click="rbutton_Click"/>
     </Grid>
 </Window>
