@@ -1,0 +1,24 @@
+﻿<Window x:Class="WpfMyGallery.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfMyGallery"
+        mc:Ignorable="d" Loaded="Window_Loaded"
+        Title="MainWindow" Height="350" Width="800">
+    <Grid>
+        <Canvas x:Name="GamePanel" Width="664" Height="243" Canvas.Top="188">
+            <Button x:Name="Games0" Width="64" Height="64"  Canvas.Left="231.666" Canvas.Top="8.999" Panel.ZIndex="0" Opacity="0.3"/>
+            <Button x:Name="Games1" Width="68" Height="68"  Canvas.Left="126" Canvas.Top="18" Panel.ZIndex="1" Opacity="0.55"/>
+            <Button x:Name="Games2" Width="100" Height="100"  Canvas.Left="35" Canvas.Top="60" Panel.ZIndex="2" Opacity="0.7"></Button>
+            <Button x:Name="Games3" Width="100" Height="100"  Canvas.Left="146" Canvas.Top="105" Panel.ZIndex="3" Opacity="0.9"></Button>
+            <Button x:Name="Games4" Width="200" Height="200" Canvas.Left="242" Canvas.Top="23" Panel.ZIndex="8"></Button>
+            <Button x:Name="Games5" Width="100" Height="100"  Canvas.Left="435" Canvas.Top="102" Panel.ZIndex="5" Opacity="0.9"/>
+            <Button x:Name="Games6" Width="100" Height="100"  Canvas.Left="550" Canvas.Top="60" Panel.ZIndex="4" Opacity="0.7" RenderTransformOrigin="0.724,0.462"/>
+            <Button x:Name="Games7" Width="68" Height="68"  Canvas.Left="486" Canvas.Top="18" Panel.ZIndex="6" Opacity="0.55"/>
+            <Button x:Name="Games8" Width="64" Height="64"  Canvas.Left="382.667" Canvas.Top="8.999" Panel.ZIndex="7" Opacity="0.3"/>
+        </Canvas>
+        <Button x:Name="lbutton" Content="左" HorizontalAlignment="Left" Margin="21,281,0,0" VerticalAlignment="Top" Width="75" Height="28" Click="lbutton_Click"/>
+        <Button x:Name="rbutton" Content="右" HorizontalAlignment="Left" Margin="694,286,0,0" VerticalAlignment="Top" Width="75" Height="28" Click="rbutton_Click"/>
+    </Grid>
+</Window>
